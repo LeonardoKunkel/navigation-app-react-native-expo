@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+    --font-work-black: "work-black";
+    --font-work-light: "work-light";
+    --font-work-medium: "work-medium";
+}
