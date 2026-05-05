@@ -4,4 +4,12 @@
     --font-work-black: "work-black";
     --font-work-light: "work-light";
     --font-work-medium: "work-medium";
+
+    --color-primary: #49129C;
+
+    --color-secondary: #B40086;
+    --color-secondary-100: #C51297;
+    --color-secondary-200: #831266;
+
+    --color-tertiary: #EF2967
 }
