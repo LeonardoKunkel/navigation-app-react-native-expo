@@ -2,7 +2,7 @@ import { Redirect } from "expo-router"
 
 const App = () => {
 
-    return <Redirect href='/products' />
+    return <Redirect href='/home' />
 
     // return (
     //     <View className="flex-1 items-center justify-center bg-white">
