@@ -1,14 +1,20 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import { Redirect } from "expo-router"
 
 const App = () => {
-    return (
-        <View className="flex-1 items-center justify-center bg-white">
-            <Text className="text-xl font-bold text-primary font-work-black">
-                Welcome to Nativewind!
-            </Text>
-        </View>
-    )
+
+    return <Redirect href='/products' />
+
+    // return (
+    //     <View className="flex-1 items-center justify-center bg-white">
+    //         <Text className="text-xl font-bold text-primary font-work-black">
+    //             Welcome to Nativewind!
+    //         </Text>
+
+    //         <Link href='/products'>
+    //             Productos
+    //         </Link>
+    //     </View>
+    // )
 }
 
 export default App
