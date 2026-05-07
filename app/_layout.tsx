@@ -1,7 +1,7 @@
 import "./global.css";
 
 import { useFonts } from "expo-font";
-import { Slot } from 'expo-router';
+import { Stack } from 'expo-router';
 
 const RootLayout = () => {
 
@@ -13,7 +13,8 @@ const RootLayout = () => {
 
     if (!fontsLoaded) return null;
 
-    return <Slot />
+    // return <Slot />
+    return <Stack />
 }
 
 export default RootLayout
